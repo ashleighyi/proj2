@@ -1,0 +1,77 @@
+.jtron1{
+ 	margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+
+body{
+	background-color: #f4fbfd;
+}
+
+.modal-dialog{
+	padding-top: 150px;
+}
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+}
+
+.siteBody{
+	min-height: 450px;
+
+}
+
+.popular{
+	padding-top: 70px;
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(208, 208, 208, 0.3);
+    width: 500px;
+    padding: 10px;
+    margin: 25px;
+}
+
+.bodyContainers{
+	padding-top: 100px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 10px;
+}
+
+
+.bodyContainers1{
+	padding-top: 10px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 10px;
+}
+
+
+img {
+  filter: gray; 
+  filter: grayscale(1); 
+  -webkit-filter: grayscale(1); 
+}
+
+
+img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
